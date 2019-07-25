@@ -37,7 +37,7 @@ Pass in the tenancy (root compartment) OCID
         echo -n '<TENANCY_OCID>' | fn invoke fn-rp-compartments-app listcompartments
 
         //example
-        echo -n 'ocid1.tenancy.oc1..aaaaaaaaydrjm77otncda2xn7qtv7l3hqnd3zxn2u6siwdhniibwfv4wwhta' | fn invoke fn-rp-compartments-app listcompartments
+        echo -n 'ocid1.tenancy.oc1..aaaaaaaaydrjm77otncda2xn7qtv7l3hqnd3zxn2u6siwdhniibwfvfoobar' | fn invoke fn-rp-compartments-app listcompartments
 
 You should get back a list of compartment names
 
